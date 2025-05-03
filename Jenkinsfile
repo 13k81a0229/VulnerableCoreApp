@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         // Make sure this matches your Jenkins global tool config
-        dotnet 'dotnet-sdk-7.0'  
+        dotnetsdk 'dotnet-sdk-7.0'  
     }
 
     stages {
